@@ -277,7 +277,7 @@ learning the basic setup and continue to the following materials for advanced co
             <div>
                 <h4>Using MLflow Tracking Server Locally</h4>
                 <p>You can of course run MLflow Tracking Server locally. While this doesn't provide much additional benefit over directly using
-                  the local files or database, might useful for testing your team development workflow locally or running your machine learning 
+                  the local files or database, it might be useful for testing your team development workflow locally or running your machine learning 
                   code on a container environment.</p>
             </div>
             <img src="_static/images/tracking/tracking-setup-local-server.png"/>
