@@ -199,8 +199,8 @@ MLflow supports two types of storage for the backend: **file-system-based** like
 
     tracking/artifacts-stores
 
-Artifact store persists (typicaly large) artifacts for each run, such as model weights (e.g. a pickled scikit-learn model),
-images (e.g. PNGs), model and data files (e.g. `Parquet <https://parquet.apache.org/>`_ file). MLflow stores artifacts ina a
+Artifact store persists (typically large) artifacts for each run, such as model weights (e.g. a pickled scikit-learn model),
+images (e.g. PNGs), model and data files (e.g. `Parquet <https://parquet.apache.org/>`_ file). MLflow stores artifacts in a
 local file (`mlruns`) by default, but also supports different storage options such as Amazon S3 and Azure Blob Storage.
 
 .. _tracking_server:
@@ -366,8 +366,9 @@ To use the Model Registry functionality with MLflow tracking, you **must use dat
 Once a model has been logged, you can add, modify, update, or delete the model in the Model Registry through the UI or the API. 
 See `Backend Stores <tracking/backend-stores.html>`_ and :ref:`Common Setups <tracking_setup>` for how to configures backend store properly for your workflow.
 
-How to include additional decription texts about the run?
+How to include additional description texts about the run?
 ---------------------------------------------------------
 A system tag ``mlflow.note.content`` can be used to add descriptive note about this run. While the other :ref:`system tags <system_tags>` are set automatically,
 this tag is **not set by default** and users can override it to include additional information about the run. The content will be displayed on the run's page under
 the Notes section.
+
